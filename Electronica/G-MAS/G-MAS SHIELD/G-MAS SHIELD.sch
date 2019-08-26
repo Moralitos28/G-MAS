@@ -1082,6 +1082,54 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="1.8KOHM" urn="urn:adsk.eagle:component:39686/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;1.8kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09119"/>
+<attribute name="VALUE" value="1.8k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3KOHM" urn="urn:adsk.eagle:component:39713/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;3.3kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07851"/>
+<attribute name="VALUE" value="3.3k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="1KOHM" urn="urn:adsk.eagle:component:39763/1" prefix="R" library_version="1">
 <description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -2552,6 +2600,151 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="MICRO-SD-SOCKET" urn="urn:adsk.eagle:footprint:37957/1" library_version="1">
+<description>&lt;h3&gt;microSD Socket SMD&lt;/h3&gt;
+Puhs-Push type.
+&lt;br&gt; tDocu shows location of uSD card in different positions.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:12&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/15882.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;MICRO-SD_CARD_SOCKET&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-14" y1="0" x2="-14" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="0" y1="12.1" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="-11.7" y1="15.3" x2="-12.5" y2="15.3" width="0.2032" layer="21"/>
+<wire x1="-11" y1="16" x2="0" y2="16" width="0.2032" layer="51"/>
+<wire x1="-10" y1="13.6" x2="-1.6" y2="13.6" width="0.2032" layer="21"/>
+<wire x1="-14" y1="0" x2="-9.1" y2="0" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="0" x2="-6.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.7" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="17.6" x2="-11" y2="17.6" width="0.2032" layer="51"/>
+<wire x1="0" y1="20.7" x2="-11" y2="20.7" width="0.2032" layer="51"/>
+<wire x1="-11.7" y1="15.3" x2="-11" y2="14.6" width="0.2032" layer="21" curve="-98.797411"/>
+<wire x1="-11" y1="14.6" x2="-10" y2="13.6" width="0.2032" layer="21" curve="87.205638"/>
+<smd name="CD2" x="-7.75" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="CD1" x="-2.05" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="GND3" x="-0.45" y="13.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="GND1" x="-13.6" y="14.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="RSV1" x="-8.94" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="CS" x="-7.84" y="10.3" dx="0.8" dy="1.5" layer="1"/>
+<smd name="DI" x="-6.74" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="VCC" x="-5.64" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="SCLK" x="-4.54" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="GND" x="-3.44" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="DO" x="-2.34" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="RSV2" x="-1.24" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<text x="-8.89" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-8.89" y="5.08" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+<text x="0.635" y="15.875" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Pressed</text>
+<text x="0.635" y="17.78" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Locked</text>
+<text x="0.635" y="20.955" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Unlocked</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MICRO-SD-SOCKET" urn="urn:adsk.eagle:package:38283/1" type="box" library_version="1">
+<description>microSD Socket SMD
+Puhs-Push type.
+ tDocu shows location of uSD card in different positions.
+Specifications:
+Pin count:12
+
+Datasheet referenced for footprint
+Example device(s):
+MICRO-SD_CARD_SOCKET
+</description>
+<packageinstances>
+<packageinstance name="MICRO-SD-SOCKET"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MICRO-SD_CARD" urn="urn:adsk.eagle:symbol:37956/1" library_version="1">
+<description>Newer version of USDCARD symbol that moves pins for easier routing and uses more accurate pin names.&lt;br /&gt;
+Renamed DAT2 from NC to RSV to remove the implication that you should leave it not connected.</description>
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-10.16" x2="13.462" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-5.08" x2="14.732" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-10.16" x2="14.732" y2="-10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.874" y="10.668" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!CS" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="DI" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="GND" x="2.54" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="VCC" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="SCK" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="RSV@2" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="DO" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="RSV@1" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SHIELD@3" x="0" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="SHIELD@1" x="-2.54" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="CD1" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="CD2" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICRO-SD_CARD_SOCKET" urn="urn:adsk.eagle:component:38385/1" prefix="J" library_version="1">
+<description>&lt;h3&gt;microSD Socket for Transflash&lt;/h3&gt;
+&lt;p&gt;Push-push type µSD socket.  tDoc lines correctly indicate media card edge positions when inserting (unlocked, locked, depressed).
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;NOTE:&lt;/b&gt; CD1 and CD2 are connected internally, and the default detect state of the socket is detect pin to ground.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13660”&gt;WAV Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13262”&gt;CAN-Bus Shield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13743”&gt;SparkFun Level Shifing microSD Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="MICRO-SD_CARD" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="MICRO-SD-SOCKET">
+<connects>
+<connect gate="1" pin="!CS" pad="CS"/>
+<connect gate="1" pin="CD1" pad="CD1"/>
+<connect gate="1" pin="CD2" pad="CD2"/>
+<connect gate="1" pin="DI" pad="DI"/>
+<connect gate="1" pin="DO" pad="DO"/>
+<connect gate="1" pin="GND" pad="GND"/>
+<connect gate="1" pin="RSV@1" pad="RSV1"/>
+<connect gate="1" pin="RSV@2" pad="RSV2"/>
+<connect gate="1" pin="SCK" pad="SCLK"/>
+<connect gate="1" pin="SHIELD@1" pad="GND1"/>
+<connect gate="1" pin="SHIELD@3" pad="GND3"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38283/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-07820"/>
+<attribute name="SF_ID" value="PRT-00127" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2613,6 +2806,14 @@ W = angled&lt;p&gt;
 <part name="ATY-C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-KIT-EZ-50V-20%" package3d_urn="urn:adsk.eagle:package:37428/1" value="22pF"/>
 <part name="ATY-C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-KIT-EZ-50V-20%" package3d_urn="urn:adsk.eagle:package:37428/1" value="22pF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="JST-V6" library="Rembrandt Electronics - JST XH Connectors v1-0" library_urn="urn:adsk.eagle:library:7495559" deviceset="JST-XH-02-PIN" device="-LONG-PAD" package3d_urn="urn:adsk.eagle:package:7495605/1" value="JST-V1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="MICRO-SD_CARD_SOCKET" device="" package3d_urn="urn:adsk.eagle:package:38283/1"/>
+<part name="SD-R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.8KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1.8k"/>
+<part name="SD-R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="3.3k"/>
+<part name="SD-R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.8KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1.8k"/>
+<part name="SD-R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="3.3k"/>
+<part name="SD-R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.8KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1.8k"/>
+<part name="SD-R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="3.3k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2816,6 +3017,41 @@ W = angled&lt;p&gt;
 <instance part="GND9" gate="1" x="-119.38" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-119.38" y="111.506" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="JST-V6" gate="-2" x="20.32" y="93.98" smashed="yes">
+<attribute name="NAME" x="22.86" y="93.218" size="1.524" layer="95"/>
+</instance>
+<instance part="JST-V6" gate="-1" x="20.32" y="101.6" smashed="yes">
+<attribute name="NAME" x="22.86" y="100.838" size="1.524" layer="95"/>
+<attribute name="VALUE" x="19.558" y="102.997" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="1" x="58.42" y="160.02" smashed="yes">
+<attribute name="NAME" x="45.72" y="170.688" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.546" y="170.688" size="1.778" layer="96"/>
+</instance>
+<instance part="SD-R1" gate="G$1" x="-15.24" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="-16.764" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-13.716" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SD-R2" gate="G$1" x="-15.24" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="-16.764" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-13.716" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SD-R3" gate="G$1" x="-5.08" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.604" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-3.556" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SD-R4" gate="G$1" x="-5.08" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.604" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-3.556" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SD-R5" gate="G$1" x="5.08" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.556" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="6.604" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SD-R6" gate="G$1" x="5.08" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.556" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="6.604" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2910,6 +3146,44 @@ W = angled&lt;p&gt;
 <wire x1="-114.3" y1="106.68" x2="-111.76" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="ATY-C2" gate="G$1" pin="1"/>
 <wire x1="-114.3" y1="121.92" x2="-111.76" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JST-V6" gate="-2" pin="S"/>
+<wire x1="17.78" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<label x="10.16" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="GND@2"/>
+<wire x1="33.02" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="25.4" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="GND@1"/>
+<wire x1="33.02" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="25.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="1" pin="GND"/>
+<label x="60.96" y="137.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="60.96" y1="144.78" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="132.08" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="116.84" x2="5.08" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SD-R2" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="116.84" x2="-5.08" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="116.84" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="116.84" x2="-15.24" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SD-R4" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="121.92" x2="-5.08" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-5.08" y="116.84"/>
+<pinref part="SD-R6" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="121.92" x2="5.08" y2="116.84" width="0.1524" layer="91"/>
+<junction x="5.08" y="116.84"/>
+<pinref part="J1" gate="1" pin="SHIELD@3"/>
+<pinref part="J1" gate="1" pin="SHIELD@1"/>
+<wire x1="58.42" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="144.78" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
+<junction x="55.88" y="144.78"/>
+<junction x="60.96" y="132.08"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3307,6 +3581,117 @@ W = angled&lt;p&gt;
 <pinref part="ATY" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
 <wire x1="-63.5" y1="63.5" x2="-55.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="-55.88" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="JST-V6" gate="-1" pin="S"/>
+<wire x1="17.78" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="VIN"/>
+<wire x1="33.02" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+<label x="25.4" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3V3" class="0">
+<segment>
+<pinref part="J1" gate="1" pin="VCC"/>
+<wire x1="43.18" y1="165.1" x2="33.02" y2="165.1" width="0.1524" layer="91"/>
+<label x="35.56" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<label x="25.4" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="SD-R1" gate="G$1" pin="1"/>
+<pinref part="SD-R2" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="137.16" x2="-15.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="134.62" x2="-15.24" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="134.62" x2="-10.16" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-15.24" y="134.62"/>
+<wire x1="-10.16" y1="134.62" x2="-10.16" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="J1" gate="1" pin="SCK"/>
+<wire x1="-10.16" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="SD-R3" gate="G$1" pin="1"/>
+<pinref part="SD-R4" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="137.16" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="134.62" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="134.62" x2="0" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-5.08" y="134.62"/>
+<wire x1="0" y1="134.62" x2="0" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="J1" gate="1" pin="!CS"/>
+<wire x1="0" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="SD-R5" gate="G$1" pin="1"/>
+<pinref part="SD-R6" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="137.16" x2="5.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="134.62" x2="5.08" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<junction x="5.08" y="134.62"/>
+<wire x1="30.48" y1="134.62" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J1" gate="1" pin="DI"/>
+<wire x1="43.18" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD-SCK" class="0">
+<segment>
+<pinref part="SD-R1" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="147.32" x2="-15.24" y2="162.56" width="0.1524" layer="91"/>
+<label x="-15.24" y="160.02" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="D7"/>
+<wire x1="58.42" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+<label x="71.12" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="SD-CS" class="0">
+<segment>
+<pinref part="SD-R3" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="147.32" x2="-5.08" y2="160.02" width="0.1524" layer="91"/>
+<label x="-5.08" y="157.48" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="D4"/>
+<wire x1="58.42" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="68.58" y="71.12" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="SD-MOSI" class="0">
+<segment>
+<pinref part="SD-R5" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="147.32" x2="5.08" y2="160.02" width="0.1524" layer="91"/>
+<label x="5.08" y="157.48" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="*D5"/>
+<wire x1="58.42" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
+<label x="71.12" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="SD-MISO" class="0">
+<segment>
+<pinref part="J1" gate="1" pin="DO"/>
+<wire x1="43.18" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<label x="38.1" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BRD-ARD1" gate="G$1" pin="D8"/>
+<wire x1="58.42" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<label x="71.12" y="60.96" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
